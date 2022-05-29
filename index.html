@@ -456,6 +456,10 @@
             font-weight: 900;
             border-bottom: 1px solid palevioletred;
         }
+        #projects a{ 
+            color: white;
+
+        }
         #projects .box1 span:nth-child(2){
             position: absolute;
             font-family: 'Gruppo', cursive;
@@ -967,14 +971,12 @@
             width: 500px;
             border-bottom: none;
         }
-        #projects a,#projects .box2{
+        #projects .box2,#projects .box1{
             width: 40%;
             height: 300px;
         }
-        #projects .box1{
-            width: 100%;
-            height: 300px;
-        }
+       
+        
         #projects .box1 span:first-child{
             left: 15px;
             top: 20px;
@@ -1142,15 +1144,17 @@
         #projects .extra{
             display: none;
         }
-        #projects .box2,#projects a{
+        #projects .box2,#projects .box1{
             height: 260px;
             width: 65%;
         }
-        
+        #projects a{
+            height: 150px;
+            width: 65%;
+        }
         #projects .box1{
             margin-top: -120px;
-            height: 260px;
-            width: 100%;
+            
         }
         
         #projects .box1 span:first-child{
@@ -1338,12 +1342,14 @@
         }
         
         #projects .box1{
-            
             margin-top: -120px;
         }
-        #projects a,#projects .box1,#projects .box2{
+        #projects .box2,#projects .box1{
             height: 230px;
+            width: 65%;
         }
+        
+        
         #projects .box2{
             margin-top: -380px;
            
@@ -1543,14 +1549,16 @@
         <h1>My Projects</h1>
         <div class="extra"></div>
         <div class="box-format">
-            <a href="Website for Amritsar Report.pdf" target="_blank" >
+            
                 <div class="box1">
+                    <a href="Website for Amritsar Report.pdf" target="_blank" >
                     <span> Amritsar Information</span>
                     <span> Website through which tourists can get a brief information about the must visit places and can also reserve their seats all at one place</span>
                     <span>Click to see SYNOPSYS</span>
                     <img src="images/ac553cec8b22af74d14f1f0dddf18b0e.jpg" width="200px" height="395px" alt="">
+                    </a>  
                 </div>
-            </a>
+            
             <div class="box2">
                 <span>Comming Soon...!</span>
             </div>
@@ -1569,7 +1577,8 @@
         <h2 data-aos="fade">Welcome to <br> <span>Kunwar's World</span></h2>
         <div class="photo" data-aos="fade"></div>
             <div class="education" data-aos="fade-right"><h1>Education</h1>
-            <p>Did schooling from SGHPS in 2018 , then completed my graduation in Bachelors Of Computer Applications (B.CA) in year 2021 in  DAV college,Amritsar.</p></div>
+            <p>Schooling from SGHPS - 2018 <br> Python - VMM Education(2019) <br> Graduation from DAV - Bachelors of Computer Applications(2021)  
+            </p></div>
             <a href="#projects"><div  class="projects" data-aos="fade-right"><h1>Projects</h1>
             <p>Amritsar Information - College Project</p></div></a>
             <div class="skills" data-aos="fade-right"><h1>Skills</h1>
